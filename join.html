@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" type="svg" href="images/logo.svg"> 
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/vars.css">
+    <title>Join</title>
+</head>
+<body>
+
+<header>
+    <h1>The CSE Cheese Society</h1><img src="images/logo.svg" alt="A loge of a cheese wheel with a slice taken out of it">
+</header>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="join.html">Join Us</a>
+    <a href="guide/index.html">Guide</a>
+</nav>
+<main>
+    <section>
+        <form>
+            <field>
+                <legend>Join The CSE Cheese Society</legend>
+                <p>
+                    Membership is free, meetings are monthly, and the cheese is real.
+                    Fill out the form and the Keeper of the Cave will be in touch.
+                </p>
+                <label for="name">Name: </label><input type="text" name="name" required> <br>
+                <label for="email">Email: </label><input type="email" name="email" required> <br>
+                <p>Which family calls to you?</p> <br>
+                <div class="select">
+                    <label><input type="radio" name="family" value="fresh"> Fresh</label>
+                    <label><input type="radio" name="family" value="soft"> Soft-ripened</label>
+                    <label><input type="radio" name="family" value="blue"> Blue</label>
+                    <label><input type="radio" name="family" value="hard"> Hard</label>
+                    <label><input type="radio" name="family" value="undecided"> Undecided - that's why I'm here</label>
+                </div>
+                <p>Which of these have you tasted?</p>
+                <div class="select">
+                    <label><input type="checkbox" name="tasted" value="brie">Brie</label>
+                    <label><input type="checkbox" name="tasted" value="roquefort">Roquefort</label>
+                    <label><input type="checkbox" name="tasted" value="gouda">Aged Gouda</label>
+                </div>
+                <label for="favorite">Tell us your favorite cheese: </label><input type="text" placeholder="e.g. Comte" name="favorite">
+                <button type="submit">Sign me up</button>
+            </field>
+        </form>
+    </section>
+    <section>
+        <button id="joinDialog">Why join?</button>
+        <ul id="joinList">
+            <li>Monthly tastings. The Society buys the cheese. You bring opinions.</li>
+            <li>Voting rights in the Cheese of the Month election.</li>
+            <li>Access to THE CAVE (a mini-fridge, but a very serious one).</li>
+            <li>A laminated membership card featuring the cheese of your choice.</li>
+            <li>Amnesty program for recovering blue-cheese skeptics.</li>
+        </ul>
+        <button id="closeDialog">I'm convinced</button>
+    </section>
+</main>
+<footer>
+    <p>Copyright 2026 <a href="https://cse.ucsd.edu/">The CSE Cheese Society</a>. Cheese responsibly.</p>
+</footer>
+
+</body>
+</html>
