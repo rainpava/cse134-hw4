@@ -1,0 +1,16 @@
+article > section > *:not(h2) {
+    padding: 0 var(--space-2);
+}
+
+blockquote > footer > p{
+    justify-self: left;
+    padding-left: var(--space-1);
+}
+
+dt {
+    align-items: center;
+    .icon {
+        width: 2rem;
+        vertical-align: middle;
+    }
+}

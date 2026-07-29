@@ -1,0 +1,32 @@
+body {
+    display: grid;
+    grid-template-areas: 
+        "header"
+        "nav"
+        "main"
+        "footer";
+    grid-template-rows: var(--header-height) auto 1fr var(--footer-height);
+    min-height: 100svh;
+
+    > header {
+        grid-area: header;
+        border-block-end: var(--border);
+    }
+
+    > nav {
+        grid-area: nav;
+        border-block-end: var(--border);
+    }
+
+    > main {
+        grid-area: main;
+        > a {
+            align-self: end;
+        }
+    }
+
+    > footer {
+        grid-area: footer;
+        border-block-start: var(--border);
+    }
+}

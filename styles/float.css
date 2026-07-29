@@ -1,0 +1,32 @@
+body {
+    --figure-width: 15rem;
+    --figure-height: 15rem;
+
+    max-width: var(--measure);
+    margin-inline: auto;
+    padding: var(--space-2);
+
+    article {
+        figure {
+            float: left;
+            width: var(--figure-width);
+            min-height: var(--figure-height);
+            margin: 0 var(--space-2);
+            
+            figcaption {
+                text-align: center;
+                color: var(--ink2);
+                font-weight: bold;
+            }
+
+            > footer {
+                clear: both;
+            }
+        }
+    }
+
+    main > section {
+        clear: both;
+        margin-top: 3rem;
+    }
+}
