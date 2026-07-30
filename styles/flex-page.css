@@ -23,3 +23,9 @@ body {
         border-block-start: var(--border);
     }
 }
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

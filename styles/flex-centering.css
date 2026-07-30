@@ -8,6 +8,11 @@ form {
     max-width: 45rem;
 }
 
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 legend {
     font-weight: bold;
