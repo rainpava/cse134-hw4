@@ -71,11 +71,7 @@
   header > img, .logo {
     width: 5rem;
   }
-  header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+
 
   main, aside {
     padding: 0.4rem;
