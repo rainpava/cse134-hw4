@@ -5,7 +5,7 @@ body {
         "nav"
         "main"
         "footer";
-    grid-template-rows: var(--header-height) auto 1fr var(--footer-height);
+    grid-template-rows: auto auto 1fr var(--footer-height);
     min-height: 100svh;
 
     > header {

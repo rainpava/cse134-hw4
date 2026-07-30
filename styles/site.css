@@ -1,0 +1,21 @@
+@media (prefers-reduced-motion: no-preference) {
+    @view-transition {
+        navigation: auto;
+    }
+}
+
+.fresh {
+    view-transition-name: fresh-cheese;
+}
+
+.hard {
+    view-transition-name: hard-cheese;
+}
+
+.soft {
+    view-transition-name: soft-cheese;
+}
+
+.blue {
+    view-transition-name: blue-cheese;
+}
